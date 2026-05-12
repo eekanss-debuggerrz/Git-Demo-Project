@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My First Git Project</title>
-    </head>
-    <body>
-        <h1>Hello Git and GitHub</h1>
-        <p>This is my first git Project</p>
-        <h2>About Me</h2>
-        <p>My name is Iylias and I am learning Git</p>
-    </body>
+<head>
+<style>
+  body {
+    background-color: #801A05;
+    font-family: Georgia;
+    text-align: center;
+    color: white;
+  }
+  h1 {
+    color: #C17F4A;
+    font-size: 50px;
+    text-align: center;
+
+  }
+  p {
+    font-size: 16px;
+    color: #E8C99A;
+  }
+  a {
+    color: #C17F4A;
+    font-size: 15px;
+  }
+  button {
+    background: #C17F4A;
+    padding: 10px 20px;
+    border: none;
+    color: #2C1A0E;
+  }
+  img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+</style>
+<head>
+  <title>Safe Boundary Cafe</title>
+</head>
+<body>
+
+<blockquote>"Life is too short for bad coffee."</blockquote>
+
+  <h1>Safe Boundary Cafe</h1>
+
+  <p>Hello! We are a cafe for people where we all talk together rather than looking at phones.</p>
+
+  <p2>Here is the menu for today!<p2/>
+  <a href="https://assets.visme.co/templates/banners/thumbnails/i_Cafe-Menu_full.jpg">
+    MENU
+  </a>
+
+  <br><br>
+  <img src="https://static.vecteezy.com/system/resources/previews/043/169/130/non_2x/ai-generated-row-of-coffee-cups-filled-with-different-coffee-beans-free-photo.jpeg"
+  alt="Our Café">
+
+  <button onclick="alert('Order placed!')">Order Now</button>
+  <script>
+function orderCoffee() {
+alert("Your latte is brewing!");
+}
+</script>
+<button onclick="orderCoffee()">Order Latte</button>
+<input type="text" id="name">
+<button onclick="greet()">Submit</button>
+<script>
+function greet() {
+  var n = document.getElementById("name").value;
+  alert("Order for: " + n);
+}
+</script>
+
+  <p>We will call your NAME or NUMBER to take the order you placed<p/>
+</body>
 </html>
